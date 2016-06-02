@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+It creates a .git folder which will be the home for your commits in the reposititory. It initially tells you a list of files that are in the directory that have yet to be tracked with commits in git. You need to start at this step to build a home for your list of commits. 
