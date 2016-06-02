@@ -1,3 +1,12 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 It creates a .git folder which will be the home for your commits in the reposititory. It initially tells you a list of files that are in the directory that have yet to be tracked with commits in git. You need to start at this step to build a home for your list of commits. 
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+It is not yet committed to the repository, but allows you to batch changes together into single commit. It is somewhere between the working directory and the repository. It adds value to be able to control what enters a single commit and and what remains separate commits. 
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can use git status to check what files have been added to the staging area and only when the proper files are found there can you move forward with the commit.
+
