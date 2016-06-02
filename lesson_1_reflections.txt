@@ -1,0 +1,3 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+I found it much easier to pinpoint the problem. The alternative is to go through many many lines of code side by side to see where the typo occured. Using diff makes the task relatively simple. 
